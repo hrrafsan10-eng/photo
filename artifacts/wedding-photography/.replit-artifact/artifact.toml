@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Wedding Photography"
+description = "A refined wedding photography portfolio showcasing a couple’s celebrations through cinematic event galleries, a flowing photo carousel, and an intimate story-led experience."
+version = "1.0.0"
+id = "artifacts/wedding-photography"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19985
+
+[services.development]
+run = "pnpm --filter @workspace/wedding-photography run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/wedding-photography", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/wedding-photography/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19985"
+BASE_PATH = "/"

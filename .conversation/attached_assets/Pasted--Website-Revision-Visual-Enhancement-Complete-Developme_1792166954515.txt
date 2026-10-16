@@ -1,0 +1,314 @@
+# Website Revision & Visual Enhancement — Complete Development Prompt
+
+I want to significantly improve and refine my existing wedding photography website, making it more visually stunning, modern, elegant, romantic, interactive, and premium.
+
+**Important:** Do not rebuild the website from scratch or unnecessarily change its existing structure. Preserve the current design identity, existing content, working functionality, and overall concept while implementing all the following revisions carefully.
+
+The final result should feel like a professionally designed, high-end wedding photography portfolio with beautiful imagery, smooth animations, sophisticated layouts, and a memorable user experience.
+
+## 1. Hero Section Improvements
+
+### Remove the Existing Button
+
+- In the hero section, there is a left-side content area containing multiple text elements.
+- Remove the **"Explore Our Memories"** button/text from this area completely.
+- After removing it, adjust the remaining typography, spacing, and alignment to maintain a beautiful and balanced composition.
+
+### Apply Glassmorphism to "Our Story"
+
+- On the right side of the hero section, there is an existing **"Our Story"** element.
+- Redesign this element using an elegant, premium **glassmorphism effect**.
+- Use a translucent frosted-glass background, subtle backdrop blur, soft borders, delicate shadows, and carefully balanced transparency.
+- The glass effect should blend naturally with the hero background while keeping the text readable.
+- Add subtle hover animations and smooth transitions where appropriate.
+
+The entire hero section should feel more cinematic, luxurious, romantic, and visually balanced without becoming overcrowded.
+
+## 2. Remove "Our People" and Replace It with an Animated Image Carousel
+
+### Header Navigation
+
+- Completely remove **"Our People"** from the website's header/navigation menu.
+- Ensure the remaining navigation items are properly aligned and spaced.
+
+### Replace the Existing Section
+
+- Remove the existing **"Our People"** section from the main website.
+- In the same location, introduce a beautiful, premium-quality **horizontal image carousel**.
+
+### Carousel Requirements
+
+- Display approximately **8 unique, high-quality wedding photographs**.
+- The photographs should continuously move from **right to left**.
+- Use a smooth, seamless, infinite scrolling animation.
+- The carousel must automatically pause when the visitor hovers their mouse cursor over it.
+- It should smoothly resume when the cursor moves away.
+- The movement should feel natural, elegant, and fluid rather than fast or distracting.
+- Apply gently rounded corners to each image.
+- Maintain consistent spacing, balanced image sizes, and proper aspect ratios.
+- Include subtle hover effects, such as a gentle image zoom or shadow enhancement.
+- Ensure the infinite carousel has no visible gaps, sudden jumps, or noticeable animation resets.
+- Make the carousel fully responsive across desktop, tablet, and mobile devices.
+- Optimize the images and animations for smooth performance.
+- On touch devices, provide an intuitive way to interact with the carousel.
+
+This section should become one of the website's most attractive visual highlights.
+
+## 3. Redesign and Expand "Love in Every Frame" Photography Gallery
+
+The existing **"Love in Every Frame"** section contains several wedding-event categories.
+
+I want to improve its gallery organization, category filtering, image quantity, and overall presentation.
+
+**Main requirement:** Every category must display the correct photographs without unnecessary duplicate filter options. Categories with only one photo type should not show redundant "All Photographs" and category-specific tabs that display the same content.
+
+### A. Engagement & Reception
+
+Keep the following gallery filter options:
+
+- **All Photographs**
+- **Candid**
+- **Traditional**
+
+Required behavior:
+
+- When **All Photographs** is selected, display a combined gallery of both Candid and Traditional photographs.
+- When **Candid** is selected, display only Candid photographs.
+- When **Traditional** is selected, display only Traditional photographs.
+- Add several additional high-quality, unique photographs to both categories.
+- Ensure the filters work correctly and transition smoothly between galleries.
+- Maintain a beautiful and consistent grid layout.
+
+Each filter must meaningfully change the displayed images.
+
+### B. Haldi
+
+Currently, the Haldi gallery has both **All Photographs** and **Candid**, but both options display the same images.
+
+Change this behavior:
+
+- Completely remove the **All Photographs** option.
+- Keep only **Candid** as the gallery type.
+- Add multiple new, unique Haldi Candid photographs.
+- Make the gallery visually vibrant, warm, joyful, and consistent with the Haldi celebration theme.
+- Do not display any duplicate or unnecessary filters.
+
+### C. Mehndi
+
+Apply the same gallery simplification:
+
+- Remove **All Photographs**.
+- Keep only **Candid**.
+- Add additional high-quality Mehndi Candid photographs.
+- Ensure the new photographs complement the event's colorful and traditional aesthetic.
+
+### D. Nalangu
+
+For the existing Nalangu event category:
+
+- Remove the redundant **All Photographs** option.
+- Keep only **Candid**.
+- Add more unique Candid photographs relevant to this event.
+- Ensure the gallery contains varied compositions and does not repeatedly display the same photo.
+- Retain the existing event name unless an intentional naming correction is required.
+
+### E. Sangeet
+
+Currently, both **All Photographs** and **Sangeet** show the same photographs.
+
+Update the category:
+
+- Remove **All Photographs**.
+- Keep only **Sangeet**.
+- Add several more high-quality Sangeet photographs.
+- Include visually dynamic moments, performances, dancing, celebrations, and emotional interactions.
+- Use a beautiful gallery layout with consistent rounded image corners.
+
+### F. Traditional Event
+
+The Traditional Event section requires a slightly more advanced gallery structure.
+
+Keep these main options:
+
+- **All Photographs**
+- **Traditional**
+
+When visitors select **Traditional**, display two additional nested category options:
+
+- **Card One**
+- **Card Two**
+
+Required functionality:
+
+- **All Photographs** should display the combined collection of photographs from both nested categories.
+- **Traditional** should reveal the two nested categories.
+- Clicking **Card One** should display the photographs belonging to Card One.
+- Clicking **Card Two** should display the photographs belonging to Card Two.
+- Add multiple new, unique photographs to both categories.
+- Keep the nested navigation elegant, intuitive, and visually consistent with the main gallery filters.
+- Implement smooth transitions without unnecessary page reloads.
+
+The hierarchy must be clear and the gallery should remain easy to navigate on mobile devices.
+
+## 4. Generate New Photographs and Replace Existing Unsplash Images
+
+A major requirement is to replace the existing externally sourced Unsplash or similar stock-image links.
+
+### Image Generation Requirements
+
+- Remove the currently used Unsplash-based photographs and external stock-image URLs from the galleries and newly designed carousel.
+- Generate original, high-quality, photorealistic wedding photographs using AI image generation.
+- Use the newly generated photographs throughout the relevant gallery categories.
+- Generate enough unique photographs to make each gallery feel complete, diverse, and professionally curated.
+- Avoid using the same image repeatedly to artificially increase photo count.
+- Keep the photography style consistent with a premium wedding photography brand.
+
+### Photography Style
+
+The generated photographs should feature:
+
+- Natural, realistic skin tones and convincing human expressions.
+- Cinematic lighting and professional camera compositions.
+- Romantic, emotional, intimate, and celebratory moments.
+- Authentic traditional wedding attire, decorations, rituals, and environments.
+- A balanced combination of portraits, candid moments, close-ups, and wide-angle compositions.
+- Event-specific colors and atmospheres.
+- Sharp subjects, beautiful depth of field, and professional-quality color grading.
+
+Where existing reference photographs are available, maintain visual consistency with the couple and the relevant wedding events.
+
+**Very important:** Actually generate and integrate the new image assets into the website. Do not simply replace Unsplash URLs with other external stock-image URLs or leave empty image placeholders.
+
+Store and reference the generated assets properly within the project and optimize them for web use.
+
+## 5. Improve the Section Heading After the Hero
+
+Immediately after the hero section, there is a heading similar to:
+
+**"Today, a Lifetime of Memories"**
+
+I want to improve this heading.
+
+Remove **"Today"** and replace the existing phrase with something more emotional, timeless, premium, and beautifully written.
+
+My preferred replacement is:
+
+**"A Lifetime of Memories, Beautifully Told."**
+
+Style this heading using refined typography, balanced spacing, and subtle animation.
+
+Make it feel like a meaningful introduction to the beautiful moments captured throughout the website.
+
+## 6. Apply Rounded Corners to All Website Images
+
+Currently, many photographs have sharp, square corners, making the visual presentation feel somewhat rigid.
+
+Update the website so that:
+
+- Every image has subtle, elegant rounded corners.
+- The border radius is consistent across similar image types.
+- Larger feature images may have slightly more pronounced rounded corners.
+- The rounded styling feels modern and sophisticated without becoming excessively curved.
+- Maintain consistent image proportions and prevent stretching or distortion.
+- Make hover effects smoother and more polished.
+
+The overall photographic presentation should feel softer, more refined, and visually cohesive.
+
+## 7. Add Floating Red Heart Animations Throughout the Website
+
+I want a subtle romantic floating-heart effect across the entire website.
+
+### Animation Requirements
+
+- Add small, elegant **red heart shapes** floating naturally throughout the website.
+- Hearts should gently move upward or drift subtly through the background.
+- Use realistic red, deep romantic red, and slightly transparent red shades.
+- Vary their size, opacity, movement speed, and animation timing for a natural effect.
+- Keep the movement slow, smooth, and graceful.
+- Ensure the hearts do not block important text, images, buttons, or navigation.
+- Avoid excessive hearts that would make the design look cluttered or childish.
+- The floating hearts should complement the premium wedding theme rather than overpower it.
+- Ensure the animation is optimized for desktop and mobile.
+- Respect reduced-motion accessibility preferences.
+
+The desired result is a romantic atmosphere with elegant floating red hearts visible across the site.
+
+## 8. Overall Visual Design and UI/UX Improvements
+
+Beyond the specific revisions, I want the entire website to feel considerably more beautiful, modern, sophisticated, and professionally designed.
+
+Improve the following:
+
+### Visual Design
+
+- Refine the overall layout and visual hierarchy.
+- Improve whitespace, padding, margins, and section spacing.
+- Use elegant typography and a consistent design system.
+- Create smoother transitions between website sections.
+- Introduce tasteful glassmorphism where it enhances the design.
+- Refine shadows, borders, image presentation, and content alignment.
+- Maintain a cohesive romantic color palette and cinematic aesthetic.
+- Avoid unnecessary decorative elements or overly aggressive animations.
+
+### Animations and Interactions
+
+- Add subtle scroll-reveal animations.
+- Improve hover effects on images, cards, buttons, and navigation elements.
+- Implement fluid transitions between gallery categories.
+- Make interactions feel polished and responsive.
+- Ensure animations enhance the experience without reducing usability or performance.
+
+### Responsive Design
+
+- Ensure every section looks excellent on desktop, laptop, tablet, and mobile.
+- Prevent text overflow, image distortion, horizontal page scrolling, or overlapping elements.
+- Make carousel interactions and gallery filters mobile-friendly.
+- Maintain balanced spacing and readable typography on smaller screens.
+
+### Performance
+
+- Optimize all generated images using modern web-friendly formats.
+- Implement lazy loading for below-the-fold galleries where appropriate.
+- Prevent layout shifts during image loading.
+- Keep animations smooth and lightweight.
+- Ensure the site remains fast, accessible, and functional.
+
+## 9. Important Development Instructions
+
+When implementing these revisions:
+
+1. Work directly within the existing website's framework, architecture, and styling conventions.
+2. Preserve all existing sections and functionality unless their removal or modification is specifically requested above.
+3. Do not introduce unrelated features or unnecessarily restructure the website.
+4. Ensure all gallery filters, nested categories, hover interactions, and carousel animations are fully functional.
+5. Generate and integrate real image assets rather than using placeholders, broken links, or external stock-image shortcuts.
+6. Check that images are properly matched to their respective wedding events.
+7. Maintain consistent typography, colors, transitions, and rounded corners throughout the website.
+8. Verify that no duplicate or redundant gallery filters remain.
+9. Test the website at multiple screen sizes.
+10. Review the finished website for visual inconsistencies, broken interactions, layout issues, and performance problems, and resolve them.
+
+## 10. Final Design Direction
+
+The website should communicate:
+
+**Romance • Elegance • Cinematic Storytelling • Timeless Memories • Premium Wedding Photography**
+
+I want visitors to immediately feel that they are exploring a beautiful, luxurious wedding photography experience rather than an ordinary photo gallery.
+
+The entire design should be:
+
+- Visually stunning but not overcrowded.
+- Romantic but not overly decorative.
+- Modern yet timeless.
+- Interactive yet easy to navigate.
+- Cinematic while remaining fast and responsive.
+- Consistent across all sections, images, galleries, and devices.
+
+### Final Expected Outcome
+
+Deliver a fully revised, polished, responsive, and functional version of the existing website with all the requested improvements implemented.
+
+**Do not stop at design suggestions or descriptions. Implement the actual changes, generate and integrate the required photographs, update the galleries and animations, and ensure the final website works smoothly.**
+
+The final result should look and feel like a premium, professionally designed wedding photography website, with exceptional visual quality, elegant motion, intuitive navigation, and a cohesive romantic atmosphere.

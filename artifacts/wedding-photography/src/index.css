@@ -1,0 +1,88 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@plugin "@tailwindcss/typography";
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --font-sans: var(--app-font-sans);
+  --font-serif: var(--app-font-serif);
+  --font-mono: var(--app-font-mono);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+/* A parchment-grounded palette drawn from heirloom silk and rosewood. */
+:root {
+  --background: 40 38% 97%;
+  --foreground: 345 22% 19%;
+  --border: 350 20% 84%;
+  --input: 350 20% 84%;
+  --card: 40 38% 97%;
+  --card-foreground: 345 22% 19%;
+  --popover: 40 38% 97%;
+  --popover-foreground: 345 22% 19%;
+  --primary: 348 48% 34%;
+  --primary-foreground: 40 38% 97%;
+  --secondary: 350 29% 92%;
+  --secondary-foreground: 345 22% 19%;
+  --muted: 350 29% 92%;
+  --muted-foreground: 345 13% 43%;
+  --accent: 350 30% 90%;
+  --accent-foreground: 348 48% 34%;
+  --destructive: 0 66% 42%;
+  --destructive-foreground: 40 38% 97%;
+  --ring: 348 48% 34%;
+  --app-font-sans: 'DM Sans', sans-serif;
+  --app-font-serif: 'Instrument Serif', Georgia, serif;
+  --app-font-mono: 'DM Sans', monospace;
+  --radius: .75rem;
+  --button-outline: rgba(80, 40, 52, .1);
+  --badge-outline: rgba(80, 40, 52, .06);
+  --elevate-1: rgba(80, 40, 52, .03);
+  --elevate-2: rgba(80, 40, 52, .07);
+}
+.dark {
+  --background: 345 20% 12%;
+  --foreground: 39 35% 92%;
+  --border: 345 15% 27%;
+  --input: 345 15% 27%;
+  --card: 345 20% 14%;
+  --card-foreground: 39 35% 92%;
+  --popover: 345 20% 14%;
+  --popover-foreground: 39 35% 92%;
+  --primary: 350 45% 68%;
+  --primary-foreground: 345 20% 12%;
+  --secondary: 345 15% 22%;
+  --secondary-foreground: 39 35% 92%;
+  --muted: 345 15% 22%;
+  --muted-foreground: 350 16% 70%;
+  --accent: 345 15% 25%;
+  --accent-foreground: 39 35% 92%;
+  --destructive: 0 56% 54%;
+  --destructive-foreground: 39 35% 92%;
+  --ring: 350 45% 68%;
+}
+@layer base {
+  * { @apply border-border; }
+  html { scroll-behavior: smooth; }
+  body { @apply font-sans antialiased bg-background text-foreground; }
+}
